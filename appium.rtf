@@ -1,0 +1,836 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 HelveticaNeue;\f2\fnil\fcharset0 Menlo-Regular;
+\f3\fnil\fcharset0 Monaco;\f4\fnil\fcharset0 Menlo-Italic;\f5\fnil\fcharset0 Menlo-Bold;
+\f6\fnil\fcharset0 Menlo-BoldItalic;\f7\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red27\green31\blue35;\red255\green255\blue255;\red38\green38\blue38;
+\red242\green242\blue242;\red0\green0\blue0;\red255\green255\blue255;\red0\green0\blue0;\red24\green25\blue27;
+\red173\green173\blue173;\red26\green26\blue26;\red255\green0\blue0;\red0\green105\blue217;\red106\green62\blue62;
+\red42\green0\blue255;\red127\green0\blue85;\red0\green0\blue0;\red0\green0\blue192;}
+{\*\expandedcolortbl;;\cssrgb\c14118\c16078\c18431;\cssrgb\c100000\c100000\c100000;\cssrgb\c20000\c20000\c20000;
+\cssrgb\c96078\c96078\c96078;\csgray\c0;\csgray\c100000;\cssrgb\c0\c0\c0;\cssrgb\c12549\c12941\c14118;
+\cssrgb\c73333\c73333\c73333;\cssrgb\c13333\c13333\c13333;\csgenericrgb\c100000\c0\c0;\csgenericrgb\c0\c41176\c85098;\csgenericrgb\c41569\c24314\c24314;
+\csgenericrgb\c16471\c0\c100000;\csgenericrgb\c49804\c0\c33333;\cssrgb\c0\c0\c0\c65098;\csgenericrgb\c0\c0\c75294;}
+\margl1440\margr1440\vieww21380\viewh14760\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs48 \cf0 APPIUM\
+\
+What is automation?\
+A: Doing things without manual innevension. \
+Automating the manual things which works automatically.\
+\
+How many types of automation we have?\
+A: \
+Web based -> Selenium\
+Mobile based -> Appium\
+API based -> Rest assured\
+Windows based - > Winnum, SAP\
+\
+Note : \
+.apk will works only for android\
+.ipa will works for ios (IOS App Store package) -> Real iOS device (iPhone/Ipad)\
+.app will works for virtual iOS devices (Simulators)\
+\
+Tools available for Mobile automation:\
+Robotium\
+* Supports Android\
+* APK (Application package kit) file is required\
+* Supports for cloud based automation\
+\
+Calabash (RUBY API)\
+* Supports IOS\
+* Supports android\
+* Supports only Ruby\
+\
+Appium (2nd May 2014)\
+* Supports IOS\
+* Supports Android\
+* Supports multiple programming languages(Java, JS, Python, C#)\
+* No APK is required every time\
+* No application code is required\
+* Supports for cloud based automation\
+\
+Selendroid\
+* Supports Android\
+* APK is required every time\
+* No application code is required\
+* Supports for cloud based automation\
+* Not yet released\
+\
+IOS - Driver\
+* Supports IOS\
+* APP is required every time\
+* No application code is required\
+* Supports for cloud based automation\
+\
+APPIUM\
+* They are actually wrapper over the WebDriver API.\
+* Works on WebDriver Protocal.\
+* No License required\
+* Source code is available freely.\
+\
+* Appium supports real and virtual devices.\
+virtual devices\
+Android -> Emulator (Free)\
+IOS -> Simulator (Free)\
+\
+Appium supports real -> Android (Any device) (Free)\
+IOS -> Iphone (Apple dev prog -> 99usd/year) (Buy)\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97JAVA\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+Java is an object oriented, class-based, secured and general purpose programming language.\
+\
+Featured of java :\
+1. Simple\
+2. Object oriented\
+3. Platform independent\
+4. secured\
+5. Architecture neutral\
+6. High performance\
+7. Multi threaded\
+\
+Fundamentals -\
+1. Tokens\
+2. Data types\
+3. Type casting\
+4. Java statements\
+5. Arrays\
+\
+1. Tokens\
+The smallest logical unit in the java is called as \'93Lexeme\'94.\
+The collection of Lexeme\'92s come under a particular group is called as Tokens.\
+\
+There are 4 types of Tokens - \
+1. Identifiers\
+2. Literals\
+3. Keywards/Reserved words\
+4. Operations.\
+\
+1. Identifiers -> Name assigned to elements like variables, methods, classes, interfaces etc..,,\
+\
+Rules -\
+1. It should not be a number\
+2. It may consists of \'93_\'94 or \'93-\'94.\
+3. No spaces should be allowed\
+4. Identifiers cannot be duplicate\
+\
+2. Literals -> Is a constant assigned to the variable.\
+\
+Eg : int a = 10;\
+Int -> data type\
+a -> variable\
+= -> operator\
+10 -> constant/literal\
+\
+Java has provided following literals -\
+1. Integer literal\
+Byte, short, int, long, char\
+\
+2. Floating literal\
+Float\
+Double\
+\
+3. Boolean literal\
+True/false\
+\
+4. String literal\
+Eg : String - \'93abe\'94, \'93c\'94, \'93cde\'94\
+\
+\
+3. Keywards -> is a predefined work, it will have both word recognition and internal functionality.\
+\
+Eg: goTo, const, if, switch, while..\
+\
+1. Data types and return types -\
+Byte, short, int, long, float, double, char, boolean, void, return..\
+\
+2. Access modifiers -\
+Public, protected, private, static, final, abstract, native, versatile, synchronized, strict.\
+\
+3. Flow controllers - \
+If, else, switch, case, default, for, while, do, break, continue, return..\
+\
+4. Class/ object related -\
+Class, extends, interface, implements, enum, new, this, super, packages, import..\
+\
+5. Exception handling -\
+Throw, throws, try, catch, finally\
+\
+\
+4. Operations - symbol perform particular action.\
+1. Arithmetic operations - +,-,*,%,/,++,- -\
+2. Assignment operations -  =,+=,-=,*=,/=\
+3. Comparison operations - ==,!=,<,>,<=,>=\
+4. Boolean logical operations - &, |, ^\
+5. Bitwise operations - <<,>>\
+6. Short circuit operations - &&,||\
+\
+Java OOP\'92s concepts - \
+1. Object - Instance of class or it is an entity\
+2. Class - A class can also be defined as a blue print from which you can create an object.\
+3. Inheritance - When one object acquires all the properties and behaviors of a parent object, it is called as an inheritance.\
+4. Polymorphism - many forms\
+4.1. Compile time Polymorphism (Method overloading)\
+4.2. Run time Polymorphism (Method overriding)\
+5. Encapsulation - binding the things\
+6. Abstraction - Hiding internal details and showing functionality is called as abstraction\
+\
+Exception handling - \
+Try - block where we should place exception code\
+Catch - block used to handle the exception\
+Finally - block used to execute important code\
+\
+Throw  - \
+Is used explicitly throw an exception\
+Cannot throw multiple exceptions\
+Throw is followed by an instance\
+\
+Throws - \
+Used to declare an exception\
+Can declare multiple exceptions\
+Throws is used with the method signatures\
+\
+String buffer - \
+1. Synchronized (thread safe)\
+2. Less efficient\
+ \
+String builder -\
+1. Non - Synchronized (not thread safe)\
+2. More efficient\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97APPIUM\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+Q. What is APPIUM?\
+A: * It is open source test automation tool.\
+* Cross platform for native, hybrid and mobile web apps\
+* Tests on simulators (IOS)\
+* Tests on emulators (Android)\
+* Tests on real devices (Android & IOS)\
+* This enables code reuse between iOS and Android test suites\
+\
+Q. What is a native app?\
+A: A native app is written in the programming languages specific for a platform.\
+JAVA/Kotlin -> Android devices/emulator devices\
+Obj -c / Swift -> IOS devices/simulators\
+\
+Q. What is a hybrid app?\
+A: A hybrid app is a web app that translates a native code on a platform like iPhone or android.\
+Hybrid apps have a wrapper around a web view native control that enables interaction with web element.\
+\
+Q. What is web app?\
+A: Anything runs on a browser platform is called as we app.\
+\
+Q. What is a emulator ?\
+A. An emulator is a device that mimics something close enough so that it can be substituted to the real thing. It emulates real mobile device software, hardware and OS. It is provided by development studio only. (Google - Android studio)\
+\
+Eg: Android emulator.\
+\
+Q. What is simulator ?\
+A. The simulation will take care only of some aspect of the actual thing. The simulator will not perform the functions of the real stuff, but it can be substituted to it. It is provided by development studio only. (MAC OS - Xcode)\
+\
+Eg: IOS simulator\
+\
+Concepts of Appium :\
+\
+* Appium follows Client/Server Architecture.\
+\
+Appium server : \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\b \cf0 Appium is an \'91Http server\'92 written using Node.js platform and drives iOS and Android session using JSON Wire protocol.
+\b0  \
+\
+Hence, before installing appium server, Node.JS must be pre-installed on the system.\
+\
+Appium server is distributed in 2 forms :\
+Appium.app (IOS), Appium.exe(Windows) -> This exists like GUI wrappers around the appium server that can be downloaded.\
+These 2 comes up bundled form with Node.js. (If node.js not installed means it will install automatically)\
+\
+Official website :\
+https://appium.io/\
+\
+Native supports :\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f1\fs32 \cf2 \cb3 \expnd0\expndtw0\kerning0
+Java, \
+Objective-C, \
+JavaScript (Node), \
+PHP, \
+Python, \
+Ruby, \
+C#, \
+Clojure, or \
+Perl
+\f0\fs48 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+Download the appium desktop version -\
+https://github.com/appium/appium-desktop/releases/tag/v1.20.0\
+\
+Installation for Windows Laptop :\
+\
+1. Java installation :\
+https://www.oracle.com/java/technologies/downloads/#jdk17-windows\
+\
+Set the path\
+\
+System preferences > Advanced system settings > Env variables\
+\
+JAVA_HOME : jdkpath\
+\
+PATH : JAVA_HOME/bin;\
+\
+Java \'97version\
+\
+2. Node js\
+https://nodejs.org/en/\
+\
+node \'97version\
+npm \'97version\
+\
+3. Maven \
+\
+https://maven.apache.org/download.cgi\
+\
+M2_HOME : mavenpath\
+\
+PATH : %M2_HOME%\\bin;\
+\
+Mvn \'97version\
+\
+4. Android studio\
+https://developer.android.com/studio/archive\
+\
+Install 3.5.3\
+\
+Create a dummy project\
+SDK manager\
+Download the versions available \
+\
+\
+ANDROID_HOME : sdk path\
+\
+PATH : \
+% ANDROID_HOME%\\tools;\
+% ANDROID_HOME%\\platform-tools;\
+% ANDROID_HOME%\\platforms;\
+% ANDROID_HOME%\\tools\\emulator;\
+\
+Adb \'97version\
+\
+5. Pda net +\
+\
+6. 
+\f2\fs26 \cf4 \cb5 \expnd0\expndtw0\kerning0
+npm install -g appium\
+
+\f0\fs48 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+Appium \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf6 \cb7 \CocoaLigature0  0.0.0.0:4723
+\f0\fs48 \cf0 \cb1 \CocoaLigature1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+4723 -> is the default port number for appium\
+To change the port number 
+\f2\fs22 \cf6 \cb7 \CocoaLigature0 appium --port 4724\
+\
+
+\f0\fs48 \cf0 \cb1 \CocoaLigature1 \
+Installation for MAC Laptop :\
+Appium GUI installation -\
+https://github.com/appium/appium-desktop/releases/tag/v1.20.0\
+\
+1. Java installation :\
+https://www.oracle.com/java/technologies/downloads/#jdk17-mac\
+\
+Set the path\
+Go to terminal and type:\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f2\fs28 \cf6 \cb7 \CocoaLigature0 open -e ~/.bash_profile
+\f0\fs48 \cf0 \cb1 \CocoaLigature1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home\
+export PATH=$PATH:$JAVA_HOME\
+\
+Java \'97version\
+\
+2. Install the Home Brew (ruby software)\
+Go to terminal and type:\
+\pard\pardeftab720\li360\fi-360\partightenfactor0
+
+\fs56 \cf0 ruby -e "$(curl -fsSL \ul https://raw.githubusercontent.com/Homebrew/install/master/install)\ulnone \'94\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs48 \cf0 \
+brew \'97version\
+\
+3. Node js\
+https://nodejs.org/en/\
+\
+node \'97version\
+npm \'97version\
+\
+Or\
+\
+Go to terminal and type:\
+brew install node\
+\
+node \'97version\
+npm \'97version\
+\
+4. Maven \
+\
+https://maven.apache.org/download.cgi\
+Go to terminal and type:\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f2\fs28 \cf6 \cb7 \CocoaLigature0 open -e ~/.bash_profile\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs48 \cf0 \cb1 \CocoaLigature1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 export M2_HOME=/Users/vini/Downloads/apache-maven-3.8.2\
+export M2=$M2_HOME/bin\
+\
+Mvn \'97version\
+\
+5. Android studio\
+https://developer.android.com/studio/archive\
+\
+Download - {\field{\*\fldinst{HYPERLINK "https://redirector.gvt1.com/edgedl/android/studio/install/3.5.3.0/android-studio-ide-191.6010548-mac.dmg"}}{\fldrslt 
+\f2\fs26 \cf8 \expnd0\expndtw0\kerning0
+android-studio-ide-191.6010548-mac.dmg}}
+\f2\fs26 \cf9 \expnd0\expndtw0\kerning0
+ 
+\f0\fs48 \cf0 \kerning1\expnd0\expndtw0 \
+\
+Install 3.5.3\
+\
+Create a dummy project\
+SDK manager\
+Download the versions available \
+\
+Go to terminal and type:\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f2\fs28 \cf6 \cb7 \CocoaLigature0 open -e ~/.bash_profile
+\f0\fs48 \cf0 \cb1 \CocoaLigature1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+export PATH=$ANDROID_HOME:$PATH\
+export PATH=$\{PATH\}:$\{ANDROID_HOME\}/tools\
+export PATH=$\{PATH\}:$\{ANDROID_HOME\}/platforms-tools\
+export PATH=$\{PATH\}:$\{ANDROID_HOME\}/build-tools/30.0.2\
+\
+Adb \'97version\
+\
+6. Xcode \
+\
+Go to App Store and search for Xcode and install it\
+\
+7. To install appium via terminal \
+\
+Npm install -g appium\
+\
+appium\
+\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97Setting up the project \'97\'97\'97\'97\'97\'97\'97\'97\
+\
+1. Create a new Java project\
+2. Download the java-client jar file from https://search.maven.org/search?q=g:io.appium%20AND%20a:java-client\
+3. Download the selenium jar from https://www.selenium.dev/downloads/\
+4. Copy paste these jar files under the jars folder of your project\
+5. Select the jar files right click and then click on build path > add to build path\
+6. Create a practice package and create a class\
+\
+\
+ \
+\
+\
+\
+\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97Desired capabilities\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+Desired capabilities are a set of keys and values sent to the appium server to tell the server what kind of automation session we\'92re interested in starting up.\
+\
+\
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f3\fs24 \cf10 \cb11 \expnd0\expndtw0\kerning0
+\{\
+"browserName":"Chrome",\
+"platformName":"android",\
+"automationName":"UIAutomator2",\
+"deviceName":"Nexus:5554",\
+"platformVersion":"9"\
+\}
+\f0\fs48 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f3\fs24 \cf10 \cb11 \expnd0\expndtw0\kerning0
+"appPackage":"com.android.chrome","appActivity":"com.google.android.apps.chrome.Main"
+\f0\fs48 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\
+Working on real device\
+\
+Settings > About phone > Software info> Click multiple times on build number\
+Developer options > enabled\
+Stay awake > enabled\
+Usb debugging > enabled\
+\
+Exceptions -\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs24 \cf12 Exception in thread "main" \cf13 \ul \ulc13 org.openqa.selenium.SessionNotCreatedException\cf12 \ulnone : Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '81.0.4044'\
+\
+
+\f0\fs48 \cf0 ***\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 To execute chrome browser scripts on real device we need to add a desire capability :\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs24 \cf14 capabilities\cf0 .setCapability(\cf15 "appium:chromeOptions"\cf0 , ImmutableMap.
+\f4\i of
+\f2\i0 (\cf15 "w3c"\cf0 , 
+\f5\b \cf16 false
+\f2\b0 \cf0 ));\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs48 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 NATIVE APPS:\
+\
+What is a Locator ?\
+Path given to identify an element.\
+\
+How many Locators we have in appium ?\
+Name\
+Id\
+Xpath \
+\
+1. Building the Xpath via text\
+//class-name[@text=\'91textValue\'92]\
+\
+//
+\f1\fs24 \cf17 \cb5 \expnd0\expndtw0\kerning0
+android.widget.Button[@text=\'913\'92]
+\f0\fs48 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+ \
+2. Building the Xpath via contains text\
+\
+//class-name[contains(text(),\'92textValue\'92)]\
+//
+\f1\fs24 \cf17 \cb5 \expnd0\expndtw0\kerning0
+android.widget.Button[contains(text(),\'92=\'92)]
+\f0\fs48 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\
+3.Building the Xpath via attributes\
+//class-name[@attributeName=\'91attributeValue\'92]\
+//
+\f1\fs24 \cf17 \cb5 \expnd0\expndtw0\kerning0
+android.widget.Button[@text=\'91CLR\'92]
+\f0\fs48 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\
+4.Building the Xpath via contains attributes\
+//class-name[contains(@attributeName,\'91attributeValue\'92)]\
+//
+\f1\fs24 \cf17 \cb5 \expnd0\expndtw0\kerning0
+android.widget.Button[contains(@id,\'92\cb3 id/clr\cb5 \'92)]
+\f0\fs48 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs24 \cf12  \cf13 \ul org.openqa.selenium.NoSuchElementFoundException\cf12 \ulnone : -> Identifier is wrong
+\f0\fs48 \cf0 \
+
+\f2\fs24 \cf12  \cf13 \ul org.openqa.selenium.InvalidSelectorException\cf12 \ulnone :  -> id but you have provided Xpath\
+\cf13 \ul java.lang.IllegalArgumentException\cf12 \ulnone :  
+\f0\fs48 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+5. Keywards AND and OR\
+//class-name[@text=\'91textValue\'92 AND @attributeName,\'91attributeValue\'92]\
+//class-name[@text=\'91textValue\'92 OR @attributeName,\'91attributeValue\'92]\
+\
+Native functions of Web -\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs24 \cf0 \
+SendKeys\
+Click \
+clear
+\f0\fs48 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\
+Native functions of Mobile - \
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs24 \cf0 getContext -> Native / Webview\
+getOrientation -> Portrait / Landscape\
+rotate(ScreenOrientation.
+\f6\i\b \cf18 LANDSCAPE
+\f2\i0\b0 \cf0 ); -> Changing the orientation\
+closeApp() - > Minimize the app (put the app in the background)\
+resetApp() -> This method is used for clear cache and data and make a fresh app\
+removeApp() -> Uninstall the app\
+installApp() -> install the app\
+startActivity() - > Starting the activity \
+currentActivity() -> To get the current activity name
+\f0\fs48 \
+
+\f2\fs24 toggleWifi()\
+toggleAirplaneMode()\
+toggleData()\
+toggleLocationServices()
+\f0\fs48 \
+
+\f2\fs24 hideKeyboard()\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs48 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Q: How will you switch the applications during run time ?\
+\pard\pardeftab720\partightenfactor0
+
+\f4\i\fs24 \cf18 mobiledriver
+\f2\i0 \cf0 .startActivity(
+\f5\b \cf16 new
+\f2\b0 \cf0  Activity(\cf15 "com.example.vini.addingofnumbers"\cf0 , \cf15 "com.example.vini.addingofnumbers.MainActivity"\cf0 ));\
+		\
+
+\f4\i \cf18 mobiledriver
+\f2\i0 \cf0 .startActivity(
+\f5\b \cf16 new
+\f2\b0 \cf0  Activity(\cf15 "com.example.vini.addingofnumbers"\cf0 , \cf15 "com.example.vini.addingofnumbers.MainActivity"\cf0 ));\
+		
+\f0\fs48 \
+
+\f4\i\fs24 \cf18 mobiledriver
+\f2\i0 \cf0 .startActivity(
+\f5\b \cf16 new
+\f2\b0 \cf0  Activity(\cf15 "com.example.vini.addingofnumbers"\cf0 , \cf15 "com.example.vini.addingofnumbers.MainActivity"\cf0 ));\
+		
+\f0\fs48 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+Q: how do you start and stop the appium server programatically?\
+ \
+Node js - c:\\\\Programfiles\\\\nodejs\\\\node.exe\
+Main JS - c:\\\\users\\\\userName\\\\AppData\\\\Local\\\\Programs\\\\Appium\\\\resources\\\\app\\\\node_modules\
+\\\\appium\\\\build\\\\lib\\\\main.js\
+\
+\
+To kill the appium server already running on some port \
+\
+Windows - taskKill /F/Im node.exe\
+MAC - ps -A | grep appium\
+Kill -9 process number\
+\
+\
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f7\b\fs26 \cf8 \expnd0\expndtw0\kerning0
+emulator -list-avds\
+\
+
+\b0 \
+emulator -avd @name-of-your-emulator\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs48 \cf0 \kerning1\expnd0\expndtw0 \
+\
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f7\fs26 \cf8 \expnd0\expndtw0\kerning0
+ try \{\
+        Process p =  Runtime.getRuntime().exec("cmd /c start \\"C:\\\\Program Files\\\\salesforce.com\\\\Data Loader\\\\cliq_process\\\\upsert\\\\upsert.bat\\"") ;           \
+    \} catch (IOException ex) \{\
+    \}\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs48 \cf0 \kerning1\expnd0\expndtw0 \
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+Android Key events :\
+\
+http://selendroid.io/\
+Download selendroid app file\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+UI Selector class\
+\
+FindElements -> List of web elements,Time Out Exception\
+\
+FindElement -> WebElement,NoSuchelementFoundException\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+Swipping and scrolling \
+\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97IOS Native application automation\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+IOS Application -> iPhone/ipad (secured) \
+iPhone or iPad (simulators)\
+\
+Source code is distributed -\
+https://github.com/appium/ios-uicatalog\
+\
+\
+\
+1. Configuration\
+\
+* Dependencies\
+* Library\
+\
+\
+\
+1.Annotation\
+BeforeSuite -> Project level\
+BeforeTest -> Package level\
+BeforeClass -> Class level\
+BeforeMethod -> Method level\
+Test\
+AfterMethod\
+AfterClass\
+AfterTest\
+AfterSuite\
+\
+2.Priority\
+Alphabetical format execution -> To overcome we need to add priority\
+\
+3. Assertions\
+Hard assertions\
+Soft assertions\
+\
+Obj \
+Abc | cde\
+True | false\
+Assert.all\
+\
+4. Disable the test case execution\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs24 \cf0 enabled=
+\f5\b \cf16 false\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b0\fs48 \cf0 5. Depends on\
+\
+6.Groups\
+\
+7. Managing multiple test suites\
+\
+8.Data provider\
+\
+9. Parameterization\
+\
+10. Reports\
+\
+1. Testng report\
+2. Reportng report\
+3. Extent report\
+\
+11. Retry the failed test case execution\
+\
+\
+Git commands\
+\
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f2\fs28 \cf2 \expnd0\expndtw0\kerning0
+git init\
+git add README.md\
+Git status\
+Git add .\
+git commit -m "first commit"\
+git branch -M main\
+git remote add origin https://github.com/VinayNCLK/testng.git\
+git push -u origin main\
+\
+
+\f0\fs48 \cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97FRAMEWORK\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+Design framework -\
+\
+Hybrid framework\
+1. Appium server\
+2. Page object model - design pattern\
+3. Creating screen classes\
+4. Creating test classes\
+5. Common utilities\
+6. Run as Test NG Suite or maven\
+7. Extent reports/ Report NG reports\
+8. Listeners\
+9. Properties\
+10. Excel reading for test data\
+11. CI - Jenkins\
+\
+Cucumber framework\
+1. Appium server\
+2. Page object model - design pattern\
+3. Creating screen classes\
+4. Creating test classes\
+5. Common utilities\
+6. Run as Test NG Suite or maven\
+7. Extent reports/ Report NG reports\
+8. Listeners\
+9. Properties\
+10. Excel reading for test data\
+11. CI - Jenkins\
+\
+\
+Download a apk file from this link -\
+https://flipboard.en.uptodown.com/android\
+\
+https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html\
+\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Page object model - design pattern\
+* For each screen in your application should have a java file.\
+* It is used for the lazy initialization.\
+* To avoid the stale element reference execution.\
+\
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 Ele1 ele2 ele3 ele4 ele5\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 0 1 2 3 4\
+\
+\
+Pom.xml > testing.xml> Test case>Test Base(Setup) (Properties)> Page Objects> Screen Base(SetUp - driver initialization) > Test Base(Tear Down)>Report\
+\
+\
+\
+Given, When, Then -> Gherkin\
+\
+\
+\
+\
+\
+}

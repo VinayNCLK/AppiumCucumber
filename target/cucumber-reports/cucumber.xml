@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="72.62458">
+<testcase classname="Login Feature" name="Click on continue button" time="39.396991">
+<system-out><![CDATA[Given user click on getstartedbutton........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name=": Click on continue button and select topics" time="33.227589">
+<system-out><![CDATA[Given user click on getstartedbutton........................................passed
+When user selects 4 topic...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

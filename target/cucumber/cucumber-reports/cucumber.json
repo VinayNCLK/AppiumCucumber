@@ -1,0 +1,121 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-24T06:43:09.189Z",
+        "before": [
+          {
+            "result": {
+              "duration": 35954683062,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipboardSteps.init()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Click on continue button",
+        "description": "",
+        "id": "login-feature;click-on-continue-button",
+        "after": [
+          {
+            "result": {
+              "duration": 2283520345,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipboardSteps.close(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1107393045,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on getstartedbutton",
+            "match": {
+              "location": "FlipboardSteps.user_click_on_getstartedbutton()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-24T06:43:48.603Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23541869204,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipboardSteps.init()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": ": Click on continue button and select topics",
+        "description": "",
+        "id": "login-feature;:-click-on-continue-button-and-select-topics;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2249093957,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FlipboardSteps.close(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1033666143,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on getstartedbutton",
+            "match": {
+              "location": "FlipboardSteps.user_click_on_getstartedbutton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6392596056,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user selects 4 topic",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 13
+                }
+              ],
+              "location": "FlipboardSteps.user_selects_topic(Integer)"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "\tIn order to do perform successfull login\n\tAs a user\n\tI want to launch the Flipboard app",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LoginTest.feature",
+    "tags": []
+  }
+]

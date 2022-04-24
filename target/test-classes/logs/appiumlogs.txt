@@ -1,0 +1,83 @@
+2022-04-24 12:11:30:709 [Appium] Welcome to Appium v1.19.1
+2022-04-24 12:11:30:711 [Appium] Non-default server args:
+2022-04-24 12:11:30:712 [Appium]   logFile: /Users/vini/appiumbatch-workspace/appiumweekendbatch/AppiumCucumberFramework/src/test/resources/logs/appiumlogs.txt
+2022-04-24 12:11:30:714 [Appium]   localTimezone: true
+2022-04-24 12:11:30:806 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2022-04-24 12:11:31:156 [HTTP] --> GET /wd/hub/status
+2022-04-24 12:11:31:157 [HTTP] {}
+2022-04-24 12:11:31:162 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-04-24 12:11:31:164 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.19.1"}}
+2022-04-24 12:11:31:181 [HTTP] <-- GET /wd/hub/status 200 17 ms - 68
+2022-04-24 12:11:31:183 [HTTP] 
+2022-04-24 12:11:31:251 [HTTP] --> POST /wd/hub/session
+2022-04-24 12:11:31:253 [HTTP] {"desiredCapabilities":{"appActivity":"flipboard.activities.LaunchActivity","appPackage":"flipboard.app","noReset":false,"platformVersion":"9","automationName":"UIAutomator2","platformName":"Android","deviceName":"Nexus:5554"},"capabilities":{"firstMatch":[{"appium:appActivity":"flipboard.activities.LaunchActivity","appium:appPackage":"flipboard.app","appium:automationName":"UIAutomator2","appium:deviceName":"Nexus:5554","appium:noReset":false,"platformName":"android","appium:platformVersion":"9"}]}}
+2022-04-24 12:11:31:284 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":"flipboard.activities.LaunchActivity","appPackage":"flipboard.app","noReset":false,"platformVersion":"9","automationName":"UIAutomator2","platformName":"Android","deviceName":"Nexus:5554"},null,{"firstMatch":[{"appium:appActivity":"flipboard.activities.LaunchActivity","appium:appPackage":"flipboard.app","appium:automationName":"UIAutomator2","appium:deviceName":"Nexus:5554","appium:noReset":false,"platformName":"android","appium:platformVersion":"9"}]}]
+2022-04-24 12:11:31:286 [BaseDriver] Event 'newSessionRequested' logged at 1650782491285 (12:11:31 GMT+0530 (India Standard Time))
+2022-04-24 12:11:31:881 [Appium] Appium v1.19.1 creating new AndroidUiautomator2Driver (v1.59.0) session
+2022-04-24 12:11:31:886 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-04-24 12:11:31:891 [BaseDriver] Creating session with W3C capabilities: {
+2022-04-24 12:11:31:892 [BaseDriver]   "alwaysMatch": {
+2022-04-24 12:11:31:899 [BaseDriver]     "platformName": "android",
+2022-04-24 12:11:31:904 [BaseDriver]     "appium:appActivity": "flipboard.activities.LaunchActivity",
+2022-04-24 12:11:31:931 [BaseDriver]     "appium:appPackage": "flipboard.app",
+2022-04-24 12:11:31:955 [BaseDriver]     "appium:automationName": "UIAutomator2",
+2022-04-24 12:11:31:958 [BaseDriver]     "appium:deviceName": "Nexus:5554",
+2022-04-24 12:11:31:959 [BaseDriver]     "appium:noReset": false,
+2022-04-24 12:11:31:959 [BaseDriver]     "appium:platformVersion": "9"
+2022-04-24 12:11:31:960 [BaseDriver]   },
+2022-04-24 12:11:31:960 [BaseDriver]   "firstMatch": [
+2022-04-24 12:11:31:960 [BaseDriver]     {}
+2022-04-24 12:11:31:960 [BaseDriver]   ]
+2022-04-24 12:11:31:961 [BaseDriver] }
+2022-04-24 12:11:32:016 [BaseDriver] Session created with session id: 837442f5-cd0c-4813-8e0b-2bce4670e253
+2022-04-24 12:11:32:020 [UiAutomator2] Starting 'flipboard.app' directly on the device
+2022-04-24 12:11:32:026 [UiAutomator2] Deleting UiAutomator2 session
+2022-04-24 12:11:32:040 [BaseDriver] Event 'newSessionStarted' logged at 1650782492039 (12:11:32 GMT+0530 (India Standard Time))
+2022-04-24 12:11:32:334 [W3C] Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+2022-04-24 12:11:32:335 [W3C]     at requireSdkRoot (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-adb/lib/helpers.js:36:11)
+2022-04-24 12:11:32:340 [W3C]     at Function.createADB (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-adb/lib/adb.js:55:23)
+2022-04-24 12:11:32:343 [W3C]     at Object.createBaseADB (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:108:20)
+2022-04-24 12:11:32:344 [W3C]     at Object.getDeviceInfoFromCaps (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:193:29)
+2022-04-24 12:11:32:344 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:327:40)
+2022-04-24 12:11:32:401 [W3C]     at AndroidUiautomator2Driver.createSession (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:224:18)
+2022-04-24 12:11:32:410 [W3C]     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-04-24 12:11:32:451 [W3C]     at AppiumDriver.createSession (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/lib/appium.js:366:35)
+2022-04-24 12:11:32:542 [W3C] Destroying socket connection
+2022-04-24 12:11:32:546 [HTTP] <-- POST /wd/hub/session 500 1249 ms - 879
+2022-04-24 12:11:32:547 [HTTP] 
+2022-04-24 12:11:32:555 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:785:11)
+    at Socket._write (net.js:797:8)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at Socket.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:388:22)
+    at addChunk (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+2022-04-24 12:11:32:558 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:785:11)
+    at Socket._write (net.js:797:8)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at Socket.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:388:22)
+    at addChunk (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
